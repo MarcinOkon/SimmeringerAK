@@ -36,54 +36,124 @@
       <ActiveMember>false</ActiveMember>
     </Member>
     <Member>
-      <ThumbnailPath>/Content/images/Kader/thumbs/08_Oliver_Komarek.jpg</ThumbnailPath>
-      <ImagePath>/Content/images/Kader/08_Oliver_Komarek.jpg</ImagePath>
-      <JerseyNumber>5</JerseyNumber>
-      <MemberSince>0001-01-01T00:00:00</MemberSince>
-      <BirthDate>0001-01-01T00:00:00</BirthDate>
-      <Height>0</Height>
-      <Weight>0</Weight>
-      <ActiveMember>false</ActiveMember>
-    </Member>
-    <Member>
-      <ThumbnailPath>/Content/images/Kader/thumbs/09_Marcin_Okon.jpg</ThumbnailPath>
-      <ImagePath>/Content/images/Kader/09_Marcin_Okon.jpg</ImagePath>
-      <JerseyNumber>6</JerseyNumber>
-      <MemberSince>0001-01-01T00:00:00</MemberSince>
-      <BirthDate>0001-01-01T00:00:00</BirthDate>
-      <Height>0</Height>
-      <Weight>0</Weight>
-      <ActiveMember>false</ActiveMember>
-    </Member>
-    <Member>
-      <ThumbnailPath>/Content/images/Kader/thumbs/14_Patrick_Terdina.jpg</ThumbnailPath>
-      <ImagePath>/Content/images/Kader/14_Patrick_Terdina.jpg</ImagePath>
-      <JerseyNumber>7</JerseyNumber>
-      <MemberSince>0001-01-01T00:00:00</MemberSince>
-      <BirthDate>0001-01-01T00:00:00</BirthDate>
-      <Height>0</Height>
-      <Weight>0</Weight>
-      <ActiveMember>false</ActiveMember>
-    </Member>
-    <Member>
-      <ThumbnailPath>/Content/images/Kader/thumbs/17_Martin_Hofmann.jpg</ThumbnailPath>
-      <ImagePath>/Content/images/Kader/17_Martin_Hofmann.jpg</ImagePath>
+      <Name>Oliver Komarek</Name>
       <JerseyNumber>8</JerseyNumber>
-      <MemberSince>0001-01-01T00:00:00</MemberSince>
-      <BirthDate>0001-01-01T00:00:00</BirthDate>
+      <FavouritePosition>Mittelfeld rechts</FavouritePosition>
+      <MemberSince>2005-02-08T00:00:00</MemberSince>
+      <FormerTeams>-</FormerTeams>
+      <BirthDate>1979-04-07T00:00:00</BirthDate>
+      <BirthPlace>Wien</BirthPlace>
       <Height>0</Height>
       <Weight>0</Weight>
-      <ActiveMember>false</ActiveMember>
+      <Hobbies>kicken, skifahren</Hobbies>
+      <FavouriteTeam>Austria Wien</FavouriteTeam>
+      <FavouritePlayer>Gerd Wimmer, Roman Wallner (scherzal !)</FavouritePlayer>
+      <ActiveMember>true</ActiveMember>
     </Member>
     <Member>
-      <ThumbnailPath>/Content/images/Kader/thumbs/Unknown.jpg</ThumbnailPath>
-      <ImagePath>/Content/images/Kader/Unknown.jpg</ImagePath>
+      <Name>Marcin Okon</Name>
       <JerseyNumber>9</JerseyNumber>
-      <MemberSince>0001-01-01T00:00:00</MemberSince>
-      <BirthDate>0001-01-01T00:00:00</BirthDate>
+      <FavouritePosition>Mittelfeld, Verteidigung</FavouritePosition>
+      <MemberSince>2005-02-08T00:00:00</MemberSince>
+      <FormerTeams>1. Simmeringer SC, SC Kaiserebersdorf</FormerTeams>
+      <BirthDate>1983-03-26T00:00:00</BirthDate>
+      <BirthPlace>Warschau</BirthPlace>
       <Height>0</Height>
       <Weight>0</Weight>
-      <ActiveMember>false</ActiveMember>
+      <Hobbies>kicken, fortgehen, zocken, leimen</Hobbies>
+      <FavouriteTeam>Internazionale Mailand, AC Milan, Liverpool, Barcelona, Red Bull Salzburg</FavouriteTeam>
+      <FavouritePlayer>Ronaldo, Lionel Messi, Sekagya</FavouritePlayer>
+      <ActiveMember>true</ActiveMember>
+    </Member>
+    <Member>
+      <Name>Patrick Terdina</Name>
+      <JerseyNumber>14</JerseyNumber>
+      <FavouritePosition>Sturm</FavouritePosition>
+      <MemberSince>2007-06-22T00:00:00</MemberSince>
+      <FormerTeams>FavAC, Wienerfeld, Vorwärts 06, Gaswerk, Simmering</FormerTeams>
+      <BirthDate>1981-07-07T00:00:00</BirthDate>
+      <BirthPlace>Wien</BirthPlace>
+      <Height>0</Height>
+      <Weight>0</Weight>
+      <Hobbies>Fussball, XBox, Poker, Filme, Musik</Hobbies>
+      <FavouriteTeam>Rapid, SAK</FavouriteTeam>
+      <FavouritePlayer>Diego Maradona</FavouritePlayer>
+      <ActiveMember>true</ActiveMember>
+    </Member>
+    <Member>
+      <Name>Thomas Wick</Name>
+      <JerseyNumber>15</JerseyNumber>
+      <FavouritePosition>Mittelfeld</FavouritePosition>
+      <MemberSince>2011-04-15T00:00:00</MemberSince>
+      <FormerTeams>SV Wienerfeld</FormerTeams>
+      <BirthDate>1976-01-15T00:00:00</BirthDate>
+      <BirthPlace>Wien</BirthPlace>
+      <Height>0</Height>
+      <Weight>0</Weight>
+      <Hobbies>Fußball, Tennis</Hobbies>
+      <FavouriteTeam>Austria Wien</FavouriteTeam>
+      <FavouritePlayer>Herbert Prohaska</FavouritePlayer>
+      <ActiveMember>true</ActiveMember>
+    </Member>
+    <Member>
+      <Name>Martin Hofmann</Name>
+      <JerseyNumber>17</JerseyNumber>
+      <FavouritePosition>Verteidigung</FavouritePosition>
+      <MemberSince>2005-02-08T00:00:00</MemberSince>
+      <FormerTeams>-</FormerTeams>
+      <BirthDate>1981-07-17T00:00:00</BirthDate>
+      <BirthPlace>Wien</BirthPlace>
+      <Height>0</Height>
+      <Weight>0</Weight>
+      <Hobbies>Fußball, Motorrad</Hobbies>
+      <FavouriteTeam>FK Austria Wien</FavouriteTeam>
+      <FavouritePlayer>-</FavouritePlayer>
+      <ActiveMember>true</ActiveMember>
+    </Member>
+    <Member>
+      <Name>Roman Hofmann</Name>
+      <JerseyNumber>19</JerseyNumber>
+      <FavouritePosition>Mittelfeld</FavouritePosition>
+      <MemberSince>2005-02-08T00:00:00</MemberSince>
+      <FormerTeams>-</FormerTeams>
+      <BirthDate>1982-07-22T00:00:00</BirthDate>
+      <BirthPlace>Wien</BirthPlace>
+      <Height>0</Height>
+      <Weight>0</Weight>
+      <Hobbies>Fussball, Tennis, zocken</Hobbies>
+      <FavouriteTeam>Rapid Wien, AS Roma</FavouriteTeam>
+      <FavouritePlayer>"Salvatore ""Totto"" Schillaci"</FavouritePlayer>
+      <ActiveMember>true</ActiveMember>
+    </Member>
+    <Member>
+      <Name>Markus Bauer</Name>
+      <JerseyNumber>20</JerseyNumber>
+      <FavouritePosition>Verteidigung</FavouritePosition>
+      <MemberSince>2013-08-09T00:00:00</MemberSince>
+      <FormerTeams>Austria Wien, FS Elektra, Austria Amateure</FormerTeams>
+      <BirthDate>1982-03-01T00:00:00</BirthDate>
+      <BirthPlace>Wien</BirthPlace>
+      <Height>0</Height>
+      <Weight>0</Weight>
+      <Hobbies>Sport Allerlei</Hobbies>
+      <FavouriteTeam>AFC Sunderland</FavouriteTeam>
+      <FavouritePlayer>Phil Bardsley, Lee Cattermole, Sergio Ramos, David Luiz</FavouritePlayer>
+      <ActiveMember>true</ActiveMember>
+    </Member>
+    <Member>
+      <Name>Andreas Kumanovich</Name>
+      <JerseyNumber>23</JerseyNumber>
+      <FavouritePosition>Defensiv</FavouritePosition>
+      <MemberSince>2008-03-07T00:00:00</MemberSince>
+      <FormerTeams>SGP, SC Mautner, Gaswerk</FormerTeams>
+      <BirthDate>1980-06-08T00:00:00</BirthDate>
+      <BirthPlace>Wien</BirthPlace>
+      <Height>0</Height>
+      <Weight>0</Weight>
+      <Hobbies>Tauchen, Wandern, Tennis</Hobbies>
+      <FavouriteTeam>FC Barcelona</FavouriteTeam>
+      <FavouritePlayer>keiner</FavouritePlayer>
+      <ActiveMember>true</ActiveMember>
     </Member>
   </Members>
 </MemberCollection>

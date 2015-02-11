@@ -11,7 +11,8 @@ namespace SimmeringerAK.Migration
     {
         static void Main(string[] args)
         {
-            TransformMVC3ToMVC4.Transform();
+            //TransformMVC3ToMVC4.Transform();
+            AddKaderFromCSV.AddKader(@"D:\Kader.csv", @"D:\members.xml");
         }
     }
 }

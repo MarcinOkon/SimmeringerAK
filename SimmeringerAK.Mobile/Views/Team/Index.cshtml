@@ -1,0 +1,58 @@
+﻿@{
+    ViewBag.Title = "Kader";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>Kader</h2>
+
+    <div id="Kader" class="owl-carousel"></div>
+    <div id="Member" class="member"></div>
+
+@section scripts
+{
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#Kader").owlCarousel({
+                jsonPath: '@Url.Action("GetTeamMembers")',
+                jsonSuccess: customDataSuccess,
+                items : 7,
+                itemsDesktop: [700, 6],
+                itemsDesktopSmall: [600, 5],
+                itemsTablet: [500, 4],
+                itemsTabletSmall: [400, 3],
+                itemsMobile: [300, 2]
+            });
+
+            var currentData;
+
+            function customDataSuccess(data) {
+                var content = "";
+                data.TeamMembers.forEach(function (entry) {
+                    content += "<div class=\"ui-grid-a\">"
+                    content += "<div class=\"ui-block-a\">"
+                    content += "<img data-id=\"" + entry.JerseyNumber + "\" class=\"kader-image\" src=\"" + entry.ThumbnailPath + "\">"
+                    content += "</div>"
+                    content += "<div class=\"ui-block-a\">"
+                    content += entry.JerseyNumber + " - " + entry.Name
+                    content += "</div>"
+                    content += "</div>"
+                });
+                $("#Kader").html(content);
+            }
+
+            $('#Kader').on('click', '.kader-image', function (event) {
+                $.ajax({
+                    url: '@Url.Action("GetMemberDetails")',
+                    type: 'get',
+                    data: {
+                        jerseyNumber: $(this).data("id")
+                    },
+                    dataType: 'html',
+                    success: function (result) {
+                        $('#Member').html(result);
+                    }
+                });
+            });
+        });
+
+    </script>
+}

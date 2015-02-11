@@ -1,0 +1,43 @@
+﻿@model SimmeringerAK.Mobile.Models.MatchdayResultsModel
+@{
+    this.Layout = null;
+}
+
+<div class="ui-grid-a">
+    <div class="ui-block-a title">Datum:</div>
+    <div class="ui-block-b">@Html.DisplayFor(m => m.Matchday.Date)</div>
+</div>
+<div class="ui-grid-a">
+    <div class="ui-block-a title">Art:</div>
+    <div class="ui-block-b">@Model.GameType</div>
+</div>
+
+@foreach (var game in Model.Matchday.Games)
+{
+    <div class="game">
+        <div class="ui-grid-a">
+            <div class="ui-block-a title">@Model.GetGameTitle(game)</div>
+            <div class="ui-block-b">
+                <b>@Model.GetResult(game)</b>
+            </div>
+        </div>
+        @if (game.Scorers.Any())
+        {
+            <div class="ui-grid-a">
+                <div class="ui-block-a title">Torschützen:</div>
+                <div class="ui-block-b">
+                    <div class="ui-grid-solo">
+                        @foreach (var scorer in game.Scorers)
+                        {
+                            <div class="ui-block-a">
+                                @Model.GetScore(scorer)
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        }
+    </div>    
+}
+
+

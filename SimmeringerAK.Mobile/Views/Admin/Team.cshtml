@@ -1,0 +1,42 @@
+﻿@{
+    ViewBag.Title = "Team";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{
+    var grid = new Lib.Web.Mvc.JQuery.JqGrid.JqGridHelper<SimmeringerAK.Mobile.Models.Admin.TeamViewModel>("team",
+    dataType: Lib.Web.Mvc.JQuery.JqGrid.JqGridDataTypes.Json,
+    methodType: Lib.Web.Mvc.JQuery.JqGrid.JqGridMethodTypes.Post,
+    sortingOrder: Lib.Web.Mvc.JQuery.JqGrid.JqGridSortingOrders.Desc,
+    caption: "Team",
+    footerEnabled: true,
+    pager: true,
+    rowsNumber: 10,
+    autoWidth: true,
+    parametersNames: new Lib.Web.Mvc.JQuery.JqGrid.JqGridParametersNames { Id = "JerseyNumber" },
+    sortingName: "JerseyNumber",
+    url: Url.Action("GetTeamMembers"),
+    viewRecords: true
+  ).Navigator(new Lib.Web.Mvc.JQuery.JqGrid.JqGridNavigatorOptions() { Search = false, View = false },
+        editActionOptions: new Lib.Web.Mvc.JQuery.JqGrid.JqGridNavigatorEditActionOptions() { Url = Url.Action("UpdateTeamMember") },
+        addActionOptions: new Lib.Web.Mvc.JQuery.JqGrid.JqGridNavigatorEditActionOptions() { Url = Url.Action("InsertEmployee") },
+        deleteActionOptions: new Lib.Web.Mvc.JQuery.JqGrid.JqGridNavigatorDeleteActionOptions() { Url = Url.Action("DeleteEmployee") }
+    );
+}
+        
+<h2>Team</h2>
+
+@grid.GetHtml()
+
+
+
+@section scripts
+{
+    <script src="~/Scripts/jquery.jqGrid.min.js"></script>
+    <script src="~/Scripts/i18n/grid.locale-en.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        @grid.GetJavaScript()
+      });
+    </script>
+}

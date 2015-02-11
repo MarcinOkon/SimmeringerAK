@@ -1,0 +1,61 @@
+﻿@model SimmeringerAK.Mobile.Models.ResultsModel
+
+@{
+    ViewBag.Title = "Ergebnisse";
+}
+
+
+<div data-role="fieldcontain">
+    <label for="SeasonSelect" class="select">Saison:</label>
+    @Html.DropDownList("SeasonSelect", Model.SeasonNames, new {data_native_menu="false"})
+</div>
+<div id="seasonResults"></div>
+
+@section Scripts
+{
+    <script type="text/javascript">
+        $('#SeasonSelect').change(loadSeason);
+        $(document).ready(loadSeason);
+
+        function loadSeason() {
+            $.ajax({
+                url: '@Url.Action("SeasonSelection")',
+                type: 'get',
+                data: {
+                    currentSeasonValue: $('#SeasonSelect').val()
+                },
+                dataType: 'html',
+                success: function (result) {
+                    $('#seasonResults').html(result);
+                    $('.matchday').bind('collapsibleexpand', loadMatchday
+                    );
+                    $('#seasonResults').appendTo(".ui-page").trigger("create");
+                }
+            });
+        }
+
+        function loadMatchday() {
+            var matchday = $(this);
+            if (matchday.hasClass('expanded')) {
+                matchday.children('.games').html('');
+                matchday.removeClass('expanded');
+            }
+            else {
+                $.ajax({
+                    url: '@Url.Action("MatchdaySelection")',
+                    type: 'get',
+                    data: {
+                        currentMatchdayName: $(this).data("matchday"),
+                        currentSeasonValue: $(this).data("season")
+                    },
+                    dataType: 'html',
+                    success: function (result) {
+                        matchday.children('div').html(result);
+                        matchday.addClass("expanded");
+                    }
+                });
+            }
+        }
+
+    </script>
+}

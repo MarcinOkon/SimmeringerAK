@@ -1,0 +1,12 @@
+﻿@*@model SimmeringerAK.Mobile.Models.AdminModel*@
+
+@{
+    ViewBag.Title = "Admin Page";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<ul data-role="listview" data-inset="true">
+    <li data-role="list-divider">Navigation</li>
+    <li>@Html.ActionLink("Kader", "Team", "Admin")</li>
+</ul>

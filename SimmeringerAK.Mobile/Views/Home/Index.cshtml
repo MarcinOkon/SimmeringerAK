@@ -1,0 +1,18 @@
+﻿@model SimmeringerAK.Mobile.Models.HomeModel
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<h2>@ViewBag.Clubname</h2>
+<p>
+    gegründet am 08.02.2005
+</p>
+
+<ul data-role="listview" data-inset="true">
+    <li data-role="list-divider">Navigation</li>
+    <li>@Html.ActionLink("Ergebnisse", "Index", "Results")</li>
+    <li>@Html.ActionLink("Kader", "Index", "Team")</li>
+    <li>@Html.ActionLink("Geschichte", "Geschichte", "Home")</li>
+    <li><a href="http://www.simmeringerak.com/phpbb3/" target="_blank">Forum</a></li>
+</ul>

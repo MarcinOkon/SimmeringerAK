@@ -1,0 +1,11 @@
+﻿@model SimmeringerAK.Mobile.Models.SeasonResultsModel
+@{
+    this.Layout = null;
+}
+
+@foreach (var matchday in Model.Matchdays)
+{
+    <div class="matchday" data-season="@Model.CurrentSeasonValue" data-matchday="@matchday.Name" data-role="collapsible">
+        <h3>@matchday.Name</h3>
+    </div>
+}

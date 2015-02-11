@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MemberCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Members>
+    <Member>
+      <Name>Jan Chmel</Name>
+      <ThumbnailPath>/Content/images/Kader/thumbs/01_Jan_Chmel.jpg</ThumbnailPath>
+      <ImagePath>/Content/images/Kader/01_Jan_Chmel.jpg</ImagePath>
+      <JerseyNumber>1</JerseyNumber>
+      <FavouritePosition>Tor, Verteidigung</FavouritePosition>
+      <MemberSince>2001-01-01T00:00:00</MemberSince>
+      <FormerTeams>SC Mautner Markhof</FormerTeams>
+      <BirthDate>1981-05-10T00:00:00</BirthDate>
+      <BirthPlace>Prag</BirthPlace>
+      <Height>185</Height>
+      <Weight>80</Weight>
+      <Hobbies>Fussball, Poker, Xbox zocken</Hobbies>
+      <FavouriteTeam>Rapid, Barca, ManU</FavouriteTeam>
+      <FavouritePlayer>Lionel Messi, Ronaldinho, Pavel Nedved</FavouritePlayer>
+      <ActiveMember>false</ActiveMember>
+    </Member>
+    <Member>
+      <Name>Otmar Seiser</Name>
+      <ThumbnailPath>/Content/images/Kader/thumbs/02_Otmar_Seiser.jpg</ThumbnailPath>
+      <ImagePath>/Content/images/Kader/02_Otmar_Seiser.jpg</ImagePath>
+      <JerseyNumber>2</JerseyNumber>
+      <FavouritePosition>Verteidigung, Mittelfeld</FavouritePosition>
+      <MemberSince>2005-08-02T00:00:00</MemberSince>
+      <FormerTeams>-</FormerTeams>
+      <BirthDate>1984-05-21T00:00:00</BirthDate>
+      <BirthPlace>Wien</BirthPlace>
+      <Height>186</Height>
+      <Weight>74</Weight>
+      <Hobbies>Fussball, Tennis, zocken, fortgehn</Hobbies>
+      <FavouriteTeam>FK Austria Magna</FavouriteTeam>
+      <FavouritePlayer>John Terry</FavouritePlayer>
+      <ActiveMember>false</ActiveMember>
+    </Member>
+    <Member>
+      <ThumbnailPath>/Content/images/Kader/thumbs/08_Oliver_Komarek.jpg</ThumbnailPath>
+      <ImagePath>/Content/images/Kader/08_Oliver_Komarek.jpg</ImagePath>
+      <JerseyNumber>5</JerseyNumber>
+      <MemberSince>0001-01-01T00:00:00</MemberSince>
+      <BirthDate>0001-01-01T00:00:00</BirthDate>
+      <Height>0</Height>
+      <Weight>0</Weight>
+      <ActiveMember>false</ActiveMember>
+    </Member>
+    <Member>
+      <ThumbnailPath>/Content/images/Kader/thumbs/09_Marcin_Okon.jpg</ThumbnailPath>
+      <ImagePath>/Content/images/Kader/09_Marcin_Okon.jpg</ImagePath>
+      <JerseyNumber>6</JerseyNumber>
+      <MemberSince>0001-01-01T00:00:00</MemberSince>
+      <BirthDate>0001-01-01T00:00:00</BirthDate>
+      <Height>0</Height>
+      <Weight>0</Weight>
+      <ActiveMember>false</ActiveMember>
+    </Member>
+    <Member>
+      <ThumbnailPath>/Content/images/Kader/thumbs/14_Patrick_Terdina.jpg</ThumbnailPath>
+      <ImagePath>/Content/images/Kader/14_Patrick_Terdina.jpg</ImagePath>
+      <JerseyNumber>7</JerseyNumber>
+      <MemberSince>0001-01-01T00:00:00</MemberSince>
+      <BirthDate>0001-01-01T00:00:00</BirthDate>
+      <Height>0</Height>
+      <Weight>0</Weight>
+      <ActiveMember>false</ActiveMember>
+    </Member>
+    <Member>
+      <ThumbnailPath>/Content/images/Kader/thumbs/17_Martin_Hofmann.jpg</ThumbnailPath>
+      <ImagePath>/Content/images/Kader/17_Martin_Hofmann.jpg</ImagePath>
+      <JerseyNumber>8</JerseyNumber>
+      <MemberSince>0001-01-01T00:00:00</MemberSince>
+      <BirthDate>0001-01-01T00:00:00</BirthDate>
+      <Height>0</Height>
+      <Weight>0</Weight>
+      <ActiveMember>false</ActiveMember>
+    </Member>
+    <Member>
+      <ThumbnailPath>/Content/images/Kader/thumbs/Unknown.jpg</ThumbnailPath>
+      <ImagePath>/Content/images/Kader/Unknown.jpg</ImagePath>
+      <JerseyNumber>9</JerseyNumber>
+      <MemberSince>0001-01-01T00:00:00</MemberSince>
+      <BirthDate>0001-01-01T00:00:00</BirthDate>
+      <Height>0</Height>
+      <Weight>0</Weight>
+      <ActiveMember>false</ActiveMember>
+    </Member>
+  </Members>
+</MemberCollection>

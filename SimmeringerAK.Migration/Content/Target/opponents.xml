@@ -1,0 +1,392 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<OpponentCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Opponents>
+    <Opponent>
+      <Name>AUA Utd.</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Trotzmüller</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Eldo</Name>
+    </Opponent>
+    <Opponent>
+      <Name>FC Mimar Sinan</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Wiener Linien</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Blue Angels</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Wien 11</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Team S</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Gebr. Weiss</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Floridsdorf</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Goldener Anker</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Wienerwald</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Mannswörth</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Barcelona</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Feuerwehr</Name>
+    </Opponent>
+    <Opponent>
+      <Name>FC Bierli United</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Stella Rosa</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Black Angels</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Paddys OBrien</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Aninger</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Manchester 09</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Balkan Boys</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Mannschaft ohne Namen</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Blue Sharks</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Real Marias</Name>
+    </Opponent>
+    <Opponent>
+      <Name>FCH 1986</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Wr. Löwen</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Lainz United</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Realphaville</Name>
+    </Opponent>
+    <Opponent>
+      <Name>FC Kerala</Name>
+    </Opponent>
+    <Opponent>
+      <Name>FC Casa Rossa Stainz</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Spielgemeinschaft Linz/Urfahr</Name>
+    </Opponent>
+    <Opponent>
+      <Name>FC Johns Cafe Gmunden</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Grashalmbieger München</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Robinson Stars</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Wien United</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Adler Rot/Weiss</Name>
+    </Opponent>
+    <Opponent>
+      <Name>FC Siebenstich</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Celtic Flodos 04</Name>
+    </Opponent>
+    <Opponent>
+      <Name>HFC HobbyTS</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Dreamteam 70er-BAU</Name>
+    </Opponent>
+    <Opponent>
+      <Name>FC Vienna Döbling 05</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Nobody</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Kazasport</Name>
+    </Opponent>
+    <Opponent>
+      <Name>SC Föhrenhof</Name>
+    </Opponent>
+    <Opponent>
+      <Name>FCP Inzersdorf</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Lions 92</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Donaustadt</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Schak United</Name>
+    </Opponent>
+    <Opponent>
+      <Name>HC Elektro Martin</Name>
+    </Opponent>
+    <Opponent>
+      <Name>West Wien United</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Freilehnmühle</Name>
+    </Opponent>
+    <Opponent>
+      <Name>FC Wiener Schmäh</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Old Youngsters 06</Name>
+    </Opponent>
+    <Opponent>
+      <Name>ACC Blau Gelb</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Baseliner Fussballteam</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Tyrolia</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Floridsdorfer FC</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Stumper Team</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Yellow Devils</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Post-Team</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Jokerz</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Arsenal Wien</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Cafe Nostalgie</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Sporting</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Lausbuben</Name>
+    </Opponent>
+    <Opponent>
+      <Name>HSV Schwarz Lackenau</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Katalanen</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Sonntagspartie</Name>
+    </Opponent>
+    <Opponent>
+      <Name>JVP Fischamend</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Bodgiga I</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Brucker Jugend</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Airport</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Partybus 76</Name>
+    </Opponent>
+    <Opponent>
+      <Name>ATSV</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Galaktischen</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Adler Rot Weiß</Name>
+    </Opponent>
+    <Opponent>
+      <Name>FC Athletico Vienna</Name>
+    </Opponent>
+    <Opponent>
+      <Name>FC Laaerberg Utd.</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Red Head</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Airporthobbygiga</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Playboys</Name>
+    </Opponent>
+    <Opponent>
+      <Name>SV Junto Maxim 06</Name>
+    </Opponent>
+    <Opponent>
+      <Name>FC Mannswörtherstrasse 57</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Black Scorpions 07</Name>
+    </Opponent>
+    <Opponent>
+      <Name>FC Lions</Name>
+    </Opponent>
+    <Opponent>
+      <Name>KK Allstars</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Vienna United</Name>
+    </Opponent>
+    <Opponent>
+      <Name>C--Quadrat FC</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Wien Süd</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Oberlaa</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Favoriten</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Maddogs</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Club Athletico</Name>
+    </Opponent>
+    <Opponent>
+      <Name>MK-TEAM</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Sportjournalisten</Name>
+    </Opponent>
+    <Opponent>
+      <Name>The Hoops</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Roter Stern</Name>
+    </Opponent>
+    <Opponent>
+      <Name>VGM</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Orea Pechnidi</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Faala Bau</Name>
+    </Opponent>
+    <Opponent>
+      <Name>FC Sportzentrum Süd</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Lokomotive Alt Erlaa</Name>
+    </Opponent>
+    <Opponent>
+      <Name>FC Wien Utd</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Waldquelle</Name>
+    </Opponent>
+    <Opponent>
+      <Name>WWD Gastronomiebedarf</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Alufix Österreich</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Dornbach Network</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Partizan</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Divertimento</Name>
+    </Opponent>
+    <Opponent>
+      <Name>SC Royal Simmering</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Moafockn</Name>
+    </Opponent>
+    <Opponent>
+      <Name>UPC</Name>
+    </Opponent>
+    <Opponent>
+      <Name>The Hammers</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Black Beauties</Name>
+    </Opponent>
+    <Opponent>
+      <Name>FC Kurt El</Name>
+    </Opponent>
+    <Opponent>
+      <Name>FC Thassos</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Reaktor Teleprawda</Name>
+    </Opponent>
+    <Opponent>
+      <Name>FC Bohema</Name>
+    </Opponent>
+    <Opponent>
+      <Name>FC Wojtyla</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Mödling</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Cosmos Vienna</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Generation Utd.</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Pera ay Yildiz</Name>
+    </Opponent>
+    <Opponent>
+      <Name>KFC Piecemaker</Name>
+    </Opponent>
+    <Opponent>
+      <Name>Difista</Name>
+    </Opponent>
+    <Opponent>
+      <Name>FC Torpedo Untermeidling</Name>
+    </Opponent>
+    <Opponent>
+      <Name>FC Kukurukukuuu</Name>
+    </Opponent>
+    <Opponent>
+      <Name>SC Sportunion Traismauer</Name>
+    </Opponent>
+  </Opponents>
+</OpponentCollection>

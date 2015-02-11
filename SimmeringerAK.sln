@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimmeringerAK.Mobile", "SimmeringerAK.Mobile\SimmeringerAK.Mobile.csproj", "{D09D1CD4-80AD-48DB-A58A-E1143438AD45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimmeringerAK.Model", "SimmeringerAK.Model\SimmeringerAK.Model.csproj", "{D0DE608E-AFE6-4123-A736-2DCABE09C207}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlStorage", "XmlStorage\XmlStorage.csproj", "{252F5108-9BCE-44C7-99D0-9086C3789737}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimmeringerAK.Repository", "SimmeringerAK.Repository\SimmeringerAK.Repository.csproj", "{F1FD1F8D-A43D-490B-8EE0-923E0F5CC491}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimmeringerAK.Migration", "SimmeringerAK.Migration\SimmeringerAK.Migration.csproj", "{D5DBADF7-7EFC-469D-9C6E-7EEFDCF60105}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D09D1CD4-80AD-48DB-A58A-E1143438AD45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D09D1CD4-80AD-48DB-A58A-E1143438AD45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D09D1CD4-80AD-48DB-A58A-E1143438AD45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D09D1CD4-80AD-48DB-A58A-E1143438AD45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0DE608E-AFE6-4123-A736-2DCABE09C207}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0DE608E-AFE6-4123-A736-2DCABE09C207}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0DE608E-AFE6-4123-A736-2DCABE09C207}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0DE608E-AFE6-4123-A736-2DCABE09C207}.Release|Any CPU.Build.0 = Release|Any CPU
+		{252F5108-9BCE-44C7-99D0-9086C3789737}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{252F5108-9BCE-44C7-99D0-9086C3789737}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{252F5108-9BCE-44C7-99D0-9086C3789737}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{252F5108-9BCE-44C7-99D0-9086C3789737}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1FD1F8D-A43D-490B-8EE0-923E0F5CC491}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1FD1F8D-A43D-490B-8EE0-923E0F5CC491}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1FD1F8D-A43D-490B-8EE0-923E0F5CC491}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1FD1F8D-A43D-490B-8EE0-923E0F5CC491}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5DBADF7-7EFC-469D-9C6E-7EEFDCF60105}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5DBADF7-7EFC-469D-9C6E-7EEFDCF60105}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5DBADF7-7EFC-469D-9C6E-7EEFDCF60105}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5DBADF7-7EFC-469D-9C6E-7EEFDCF60105}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

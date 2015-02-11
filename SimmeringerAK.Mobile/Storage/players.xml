@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PlayerCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Players>
+    <Player>
+      <Name>Martin Hofmann</Name>
+    </Player>
+    <Player>
+      <Name>Christoph Kadala</Name>
+    </Player>
+    <Player>
+      <Name>Roman Hofmann</Name>
+    </Player>
+    <Player>
+      <Name>Alexander Krapfenbauer</Name>
+    </Player>
+    <Player>
+      <Name>Otmar Seiser </Name>
+    </Player>
+    <Player>
+      <Name>Markus Gottwald</Name>
+    </Player>
+    <Player>
+      <Name>Thomas Müller</Name>
+    </Player>
+    <Player>
+      <Name>Robert Seunig</Name>
+    </Player>
+    <Player>
+      <Name>Gregor Irlbek</Name>
+    </Player>
+    <Player>
+      <Name>Oliver Komarek</Name>
+    </Player>
+    <Player>
+      <Name>Reinhard Binder</Name>
+    </Player>
+    <Player>
+      <Name>Marcin Okon</Name>
+    </Player>
+    <Player>
+      <Name>Christian Braun</Name>
+    </Player>
+    <Player>
+      <Name>Christian Dostal</Name>
+    </Player>
+    <Player>
+      <Name>Mario Slawek</Name>
+    </Player>
+    <Player>
+      <Name>Patrick Bayerleitner</Name>
+    </Player>
+    <Player>
+      <Name>Michi Kiss</Name>
+    </Player>
+    <Player>
+      <Name>Jörg Liebenauer</Name>
+    </Player>
+    <Player>
+      <Name>Alexander Dötzl</Name>
+    </Player>
+    <Player>
+      <Name>Karl Feteci</Name>
+    </Player>
+    <Player>
+      <Name>Peter Tscheloth</Name>
+    </Player>
+    <Player>
+      <Name>Benedikt Sachs</Name>
+    </Player>
+    <Player>
+      <Name>Thomas Pinka</Name>
+    </Player>
+    <Player>
+      <Name>Michi Plos</Name>
+    </Player>
+    <Player>
+      <Name>Patrick Terdina</Name>
+    </Player>
+    <Player>
+      <Name>Werner Böhm</Name>
+    </Player>
+    <Player>
+      <Name>Andreas Kumanovich</Name>
+    </Player>
+    <Player>
+      <Name>Martin Eppinger</Name>
+    </Player>
+    <Player>
+      <Name>Alexander Zwickl</Name>
+    </Player>
+    <Player>
+      <Name>Kevin Sachs</Name>
+    </Player>
+    <Player>
+      <Name>Mario Tiefenbacher</Name>
+    </Player>
+    <Player>
+      <Name>Patrick Varga</Name>
+    </Player>
+    <Player>
+      <Name>Stefan Kasmader</Name>
+    </Player>
+    <Player>
+      <Name>Andreas Wolkerstorfer</Name>
+    </Player>
+    <Player>
+      <Name>Thomas Wick</Name>
+    </Player>
+    <Player>
+      <Name>Jan Chmel</Name>
+    </Player>
+    <Player>
+      <Name>Thomas Regitnig</Name>
+    </Player>
+  </Players>
+</PlayerCollection>

@@ -74,14 +74,12 @@ namespace SimmeringerAK.Migration.Transformations
         {
             try
             {
-                Convert.ToInt32(input.Trim().Substring(0, input.Trim().IndexOf(' ')));
+                return Convert.ToInt32(input.Trim().Substring(0, input.Trim().IndexOf(' ')));
             }
             catch (Exception)
             {
-                
-                
+                return 0;
             }
-            return 0;
         }
     }
 }

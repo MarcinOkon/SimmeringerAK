@@ -10,7 +10,8 @@ namespace SimmeringerAK.Mobile.Models
 	{
 		public TeamModel(MemberCollection memberCollection)
 		{
-			TeamMembers = memberCollection.Members.Select(m => new TeamMember(m));
+            var members = memberCollection.Members.OrderBy(member => member.JerseyNumber);
+			TeamMembers = members.Select(m => new TeamMember(m));
 		}
 
 		public IEnumerable<TeamMember> TeamMembers { get; private set; }

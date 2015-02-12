@@ -34,9 +34,16 @@ namespace SimmeringerAK.Mobile.Controllers
                 TotalRecordsCount = totalRecordsCount
             };
 
-            response.Records.AddRange(Context.MemberCollection.Members.Select(m => new JqGridRecord<TeamViewModel>(m.JerseyNumber.ToString(), new TeamViewModel(m))));
+            var sortedMembers = Context.MemberCollection.Members.OrderBy(member => member.JerseyNumber);
+            response.Records.AddRange(sortedMembers.Select(GetJqGridMember));
 
             return new JqGridJsonResult() { Data = response };
+        }
+
+        private JqGridRecord<TeamViewModel> GetJqGridMember(Member member)
+        {
+            var teamViewModel = new TeamViewModel(member);
+            return new JqGridRecord<TeamViewModel>(member.JerseyNumber.ToString(), teamViewModel);
         }
 
         [AcceptVerbs(HttpVerbs.Post)]

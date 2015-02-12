@@ -28,7 +28,7 @@
                 <b>im Verein seit:</b>
             </div>
             <div class="ui-block-b">
-                @Model.MemberSince
+                @Model.MemberSince.ToShortDateString()
             </div>
             <div class="ui-block-a">
                 <b>bisherige Vereine:</b>
@@ -40,7 +40,7 @@
                 <b>Geburtsdatum:</b>
             </div>
             <div class="ui-block-b">
-                @Model.BirthDate
+                @Model.BirthDate.ToShortDateString()
             </div>
             <div class="ui-block-a">
                 <b>Geburtsort:</b>
@@ -52,14 +52,17 @@
                 <b>Größe:</b>
             </div>
             <div class="ui-block-b">
-                @Model.Height
+                @Model.Height cm
             </div>
-            <div class="ui-block-a">
-                <b>Gewicht:</b>
-            </div>
-            <div class="ui-block-b">
-                @Model.Weight
-            </div>
+            @if (Model.Weight > 0)
+            {
+                <div class="ui-block-a">
+                    <b>Gewicht:</b>
+                </div>
+                <div class="ui-block-b">
+                    @Model.Weight kg
+                </div>
+            }
             <div class="ui-block-a">
                 <b>Hobbies:</b>
             </div>

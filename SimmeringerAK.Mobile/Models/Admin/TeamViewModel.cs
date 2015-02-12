@@ -116,7 +116,8 @@ namespace SimmeringerAK.Mobile.Models.Admin
 
         [DisplayName("Aktives Mitglied")]
         [JqGridColumnSortable(true)]
-        [JqGridColumnEditable(true, EditType = JqGridColumnEditTypes.CheckBox)]
+        [JqGridColumnEditable(true, EditType = JqGridColumnEditTypes.CheckBox, Value = "true:false")]
+        [JqGridColumnFormatter(JqGridColumnPredefinedFormatters.CheckBox)]
         public bool ActiveMember { get; set; }
     }
 }
